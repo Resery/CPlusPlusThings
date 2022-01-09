@@ -1,9 +1,12 @@
 # using那些事
-## 关于作者：
 
-个人公众号：
+## 读者笔记
 
-![](../img/wechat.jpg)
+using 通常都是与 namespace 同时出现，namespace 有一个优点就是他可以解决变量或者函数同名的冲突。using 还可以改变继承的变量原有的访问类型，即 private -> public 或 public -> private。
+
+using 还有一个别名的功能，但是这个功能和 typedef 有一些重复，不过 using 会比 typedef 的可读性更好一些而且支持更多功能如给模板起别名，关于可读性，如果使用 typedef 定义过函数类型或者函数指针类型，对于新手来说很难一眼看出来这是一个函数类型或者函数指针类型，而使用 using 可以直接就看出这是个函数指针类型。
+
+参考文章： https://blog.csdn.net/shift_wwx/article/details/78742459
 
 ## 基本使用
 
